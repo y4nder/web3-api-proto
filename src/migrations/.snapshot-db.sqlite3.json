@@ -1,0 +1,274 @@
+{
+  "namespaces": [],
+  "tables": [
+    {
+      "columns": {
+        "did": {
+          "name": "did",
+          "type": "text",
+          "unsigned": false,
+          "autoincrement": false,
+          "primary": false,
+          "nullable": false,
+          "length": null,
+          "mappedType": "text"
+        },
+        "provider": {
+          "name": "provider",
+          "type": "text",
+          "unsigned": false,
+          "autoincrement": false,
+          "primary": false,
+          "nullable": false,
+          "length": null,
+          "mappedType": "text"
+        },
+        "private_key": {
+          "name": "private_key",
+          "type": "text",
+          "unsigned": false,
+          "autoincrement": false,
+          "primary": false,
+          "nullable": false,
+          "length": null,
+          "mappedType": "text"
+        }
+      },
+      "name": "identifier",
+      "indexes": [
+        {
+          "keyName": "primary",
+          "columnNames": [
+            "did"
+          ],
+          "composite": false,
+          "constraint": true,
+          "primary": true,
+          "unique": true
+        }
+      ],
+      "checks": [],
+      "foreignKeys": {},
+      "nativeEnums": {}
+    },
+    {
+      "columns": {
+        "vcid": {
+          "name": "vcid",
+          "type": "text",
+          "unsigned": false,
+          "autoincrement": false,
+          "primary": false,
+          "nullable": false,
+          "length": null,
+          "mappedType": "text"
+        },
+        "subject_did": {
+          "name": "subject_did",
+          "type": "text",
+          "unsigned": false,
+          "autoincrement": false,
+          "primary": false,
+          "nullable": false,
+          "length": null,
+          "mappedType": "text"
+        },
+        "cid": {
+          "name": "cid",
+          "type": "text",
+          "unsigned": false,
+          "autoincrement": false,
+          "primary": false,
+          "nullable": false,
+          "length": null,
+          "mappedType": "text"
+        },
+        "type": {
+          "name": "type",
+          "type": "json",
+          "unsigned": false,
+          "autoincrement": false,
+          "primary": false,
+          "nullable": false,
+          "length": null,
+          "mappedType": "json"
+        },
+        "issuer_did": {
+          "name": "issuer_did",
+          "type": "text",
+          "unsigned": false,
+          "autoincrement": false,
+          "primary": false,
+          "nullable": false,
+          "length": null,
+          "mappedType": "text"
+        },
+        "timestamp": {
+          "name": "timestamp",
+          "type": "datetime",
+          "unsigned": false,
+          "autoincrement": false,
+          "primary": false,
+          "nullable": false,
+          "length": null,
+          "mappedType": "datetime"
+        }
+      },
+      "name": "credential",
+      "indexes": [
+        {
+          "columnNames": [
+            "subject_did"
+          ],
+          "composite": false,
+          "keyName": "credential_subject_did_index",
+          "constraint": false,
+          "primary": false,
+          "unique": false
+        },
+        {
+          "columnNames": [
+            "issuer_did"
+          ],
+          "composite": false,
+          "keyName": "credential_issuer_did_index",
+          "constraint": false,
+          "primary": false,
+          "unique": false
+        },
+        {
+          "keyName": "primary",
+          "columnNames": [
+            "vcid"
+          ],
+          "composite": false,
+          "constraint": true,
+          "primary": true,
+          "unique": true
+        }
+      ],
+      "checks": [],
+      "foreignKeys": {
+        "credential_subject_did_foreign": {
+          "constraintName": "credential_subject_did_foreign",
+          "columnNames": [
+            "subject_did"
+          ],
+          "localTableName": "credential",
+          "referencedColumnNames": [
+            "did"
+          ],
+          "referencedTableName": "identifier",
+          "updateRule": "cascade"
+        },
+        "credential_issuer_did_foreign": {
+          "constraintName": "credential_issuer_did_foreign",
+          "columnNames": [
+            "issuer_did"
+          ],
+          "localTableName": "credential",
+          "referencedColumnNames": [
+            "did"
+          ],
+          "referencedTableName": "identifier",
+          "updateRule": "cascade"
+        }
+      },
+      "nativeEnums": {}
+    },
+    {
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "text",
+          "unsigned": false,
+          "autoincrement": false,
+          "primary": false,
+          "nullable": false,
+          "length": null,
+          "mappedType": "text"
+        },
+        "score": {
+          "name": "score",
+          "type": "integer",
+          "unsigned": false,
+          "autoincrement": false,
+          "primary": false,
+          "nullable": false,
+          "length": null,
+          "mappedType": "integer"
+        },
+        "summary": {
+          "name": "summary",
+          "type": "text",
+          "unsigned": false,
+          "autoincrement": false,
+          "primary": false,
+          "nullable": false,
+          "length": null,
+          "mappedType": "text"
+        },
+        "factors": {
+          "name": "factors",
+          "type": "json",
+          "unsigned": false,
+          "autoincrement": false,
+          "primary": false,
+          "nullable": false,
+          "length": null,
+          "mappedType": "json"
+        },
+        "identifer_did": {
+          "name": "identifer_did",
+          "type": "text",
+          "unsigned": false,
+          "autoincrement": false,
+          "primary": false,
+          "nullable": false,
+          "length": null,
+          "mappedType": "text"
+        }
+      },
+      "name": "trust_score_credential",
+      "indexes": [
+        {
+          "columnNames": [
+            "identifer_did"
+          ],
+          "composite": false,
+          "keyName": "trust_score_credential_identifer_did_unique",
+          "constraint": true,
+          "primary": false,
+          "unique": true
+        },
+        {
+          "keyName": "primary",
+          "columnNames": [
+            "id"
+          ],
+          "composite": false,
+          "constraint": true,
+          "primary": true,
+          "unique": true
+        }
+      ],
+      "checks": [],
+      "foreignKeys": {
+        "trust_score_credential_identifer_did_foreign": {
+          "constraintName": "trust_score_credential_identifer_did_foreign",
+          "columnNames": [
+            "identifer_did"
+          ],
+          "localTableName": "trust_score_credential",
+          "referencedColumnNames": [
+            "did"
+          ],
+          "referencedTableName": "identifier",
+          "updateRule": "cascade"
+        }
+      },
+      "nativeEnums": {}
+    }
+  ],
+  "nativeEnums": {}
+}
