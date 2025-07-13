@@ -19,9 +19,8 @@ import { CreateSalesLogDto } from './dto/create-sales-log.dto';
 import { ConfigService } from '@nestjs/config';
 import { SalesCredential } from './types/vc.types';
 import { CreateBusinessCredentialDto } from './dto/create-business-creds.dto';
-
-
-export type AliasType = "user" | "org";
+import { TrustScoreService } from 'src/trustScore/trust-score-service';
+import { TrustScoreCredential } from 'src/entities/trust-score.entity';
 
 @Injectable()
 export class Web3Service {
@@ -32,10 +31,15 @@ export class Web3Service {
         @InjectRepository(Credential)
         private readonly credentialRepository: EntityRepository<Credential>,
 
+        @InjectRepository(TrustScoreCredential)
+        private readonly trustScoreRepository: EntityRepository<TrustScoreCredential>,
+
         @Inject(WEB3_STORE)
         private readonly web3StorageClient: Web3Store,
 
-        private readonly config: ConfigService
+        private readonly config: ConfigService,
+
+        private readonly trustScoreService: TrustScoreService
     ) {}
 
     async CreateDid() : Promise<CreateDidResponse> {
@@ -48,6 +52,8 @@ export class Web3Service {
         newIdentifier.privateKey = encrypt(privateKey); 
 
         await this.identifierRepository.insert(newIdentifier);
+
+        await this.trustScoreService.createTrustScore(newIdentifier);
 
         return {
             did: identifer.did,
@@ -83,9 +89,7 @@ export class Web3Service {
         
         if(file){
             console.log("\n\nuploading file...");
-            // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
             const uint8Array = new Uint8Array(file.buffer);
-            // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access
             const blob = new Blob([uint8Array], { type: file.mimetype });
             const uploadedfile = await this.web3StorageClient.uploadFile(blob);
             parcedVc.uploadedFileCid = `https://${uploadedfile.toString()}.ipfs.w3s.link`
@@ -116,10 +120,11 @@ export class Web3Service {
         credential.subject = subjectIdentifier;
         credential.timestamp = now;
         credential.type = types;
-        
         credential.cid = cid;
-
         await this.credentialRepository.insert(credential);
+
+        //todo refactor for awaiting
+        this.trustScoreService.updateTrustScore(subjectDid);
      
         return vcJwt;
     }
@@ -208,5 +213,20 @@ export class Web3Service {
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const { did, ...finalDto} = dto;
         return await this.IssueVc({...issueVcDto, vc: JSON.stringify(finalDto)});
+    }
+
+    async GetTrustScore(did: string) : Promise<TrustScoreCredential | null> {
+        return await this.trustScoreRepository.findOne({
+            identifer : {
+                did: did
+            }
+        })
+    }
+
+    MockIssueThenUpdate(){
+        console.log("\n\n Issuing vc");
+        
+        this.trustScoreService.scheduleTrustScoreUpdate("some did");
+
     }
 }

@@ -20,7 +20,6 @@ export class Web3Controller {
   @UseInterceptors(FileInterceptor('file'))
   async issueVc(@UploadedFile() file: Express.Multer.File, @Body() request: IssueVCDto) {
     if(file){
-      // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
       console.log('File:', file.originalname);
     }
     const response = await this.web3Service.IssueVc(request, file);
@@ -41,5 +40,18 @@ export class Web3Controller {
   @Post("create-business-cred")
   async createBussinessCred(@Body() dto: CreateBusinessCredentialDto) {
     return await this.web3Service.CreateBusinessCredentials(dto);
+  }
+
+  @Get("get-trust-score/:did")
+  async getTrustScore(@Param("did") did: string){
+    return await this.web3Service.GetTrustScore(did);
+  }
+
+  @Post("mock")
+  Mock() {
+    console.log("mocking endpoint");
+    this.web3Service.MockIssueThenUpdate();
+    console.log("returning dayun");
+    return "Mock done na"
   }
 }

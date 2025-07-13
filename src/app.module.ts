@@ -4,6 +4,7 @@ import config from "./mikro-orm.config";
 import { MikroOrmModule } from '@mikro-orm/nestjs';
 import { Web3StorageModule } from './web3/storage/web3storage.module';
 import { ConfigModule } from '@nestjs/config';
+import { ScheduleModule } from '@nestjs/schedule';
 
 @Module({
   imports: [
@@ -13,7 +14,7 @@ import { ConfigModule } from '@nestjs/config';
     }),
     Web3StorageModule,
     ConfigModule.forRoot({isGlobal: true}),
-    
+    ScheduleModule.forRoot()    
   ]
 })
 export class AppModule {}

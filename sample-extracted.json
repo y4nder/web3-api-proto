@@ -1,0 +1,1324 @@
+{
+  "location": {
+    "city": {
+      "geoname_id": 5244080,
+      "names": {
+        "de": "Appleton",
+        "en": "Appleton",
+        "fr": "Appleton",
+        "ja": "アップルトン",
+        "ru": "Аплтон"
+      }
+    },
+    "continent": {
+      "code": "NA",
+      "geoname_id": 6255149,
+      "names": {
+        "de": "Nordamerika",
+        "en": "North America",
+        "es": "Norteamérica",
+        "fr": "Amérique du Nord",
+        "ja": "北アメリカ",
+        "pt-BR": "América do Norte",
+        "ru": "Северная Америка",
+        "zh-CN": "北美洲"
+      }
+    },
+    "country": {
+      "geoname_id": 6252001,
+      "iso_code": "US",
+      "names": {
+        "de": "USA",
+        "en": "United States",
+        "es": "Estados Unidos",
+        "fr": "États-Unis",
+        "ja": "アメリカ合衆国",
+        "pt-BR": "Estados Unidos",
+        "ru": "США",
+        "zh-CN": "美国"
+      }
+    },
+    "location": {
+      "accuracy_radius": 5,
+      "latitude": 44.2773,
+      "longitude": -88.3976,
+      "metro_code": 658,
+      "time_zone": "America/Chicago"
+    },
+    "postal": {
+      "code": "54911"
+    },
+    "registered_country": {
+      "geoname_id": 6252001,
+      "iso_code": "US",
+      "names": {
+        "de": "USA",
+        "en": "United States",
+        "es": "Estados Unidos",
+        "fr": "États-Unis",
+        "ja": "アメリカ合衆国",
+        "pt-BR": "Estados Unidos",
+        "ru": "США",
+        "zh-CN": "美国"
+      }
+    },
+    "subdivisions": [
+      {
+        "geoname_id": 5279468,
+        "iso_code": "WI",
+        "names": {
+          "en": "Wisconsin",
+          "es": "Wisconsin",
+          "fr": "Wisconsin",
+          "ja": "ウィスコンシン州",
+          "ru": "Висконсин",
+          "zh-CN": "威斯康辛州"
+        }
+      }
+    ]
+  },
+  "totalAmount": {
+    "data": 8470,
+    "confidenceLevel": 0.9199999999999999,
+    "text": "L Pay this amount 8.470 -",
+    "index": 13,
+    "keyword": "-",
+    "currencyCode": "PHP",
+    "regions": [
+      [
+        {
+          "x": 0,
+          "y": 846
+        },
+        {
+          "x": 12,
+          "y": 847
+        },
+        {
+          "x": 10,
+          "y": 865
+        },
+        {
+          "x": 0,
+          "y": 864
+        }
+      ],
+      [
+        {
+          "x": 210,
+          "y": 1001
+        },
+        {
+          "x": 248,
+          "y": 1000
+        },
+        {
+          "x": 248,
+          "y": 1021
+        },
+        {
+          "x": 211,
+          "y": 1023
+        }
+      ],
+      [
+        {
+          "x": 252,
+          "y": 1000
+        },
+        {
+          "x": 290,
+          "y": 999
+        },
+        {
+          "x": 290,
+          "y": 1019
+        },
+        {
+          "x": 253,
+          "y": 1021
+        }
+      ],
+      [
+        {
+          "x": 294,
+          "y": 999
+        },
+        {
+          "x": 372,
+          "y": 995
+        },
+        {
+          "x": 372,
+          "y": 1016
+        },
+        {
+          "x": 295,
+          "y": 1019
+        }
+      ],
+      [
+        {
+          "x": 599,
+          "y": 986
+        },
+        {
+          "x": 691,
+          "y": 984
+        },
+        {
+          "x": 693,
+          "y": 1015
+        },
+        {
+          "x": 601,
+          "y": 1018
+        }
+      ],
+      [
+        {
+          "x": 700,
+          "y": 984
+        },
+        {
+          "x": 720,
+          "y": 985
+        },
+        {
+          "x": 722,
+          "y": 1012
+        },
+        {
+          "x": 702,
+          "y": 1014
+        }
+      ]
+    ]
+  },
+  "taxAmount": {
+    "confidenceLevel": 0
+  },
+  "discountAmount": {
+    "confidenceLevel": 0
+  },
+  "paidAmount": {
+    "data": 8470,
+    "confidenceLevel": 0.9199999999999999,
+    "text": "L Pay this amount 8.470 -",
+    "index": 13,
+    "regions": [
+      [
+        {
+          "x": 0,
+          "y": 846
+        },
+        {
+          "x": 12,
+          "y": 847
+        },
+        {
+          "x": 10,
+          "y": 865
+        },
+        {
+          "x": 0,
+          "y": 864
+        }
+      ],
+      [
+        {
+          "x": 210,
+          "y": 1001
+        },
+        {
+          "x": 248,
+          "y": 1000
+        },
+        {
+          "x": 248,
+          "y": 1021
+        },
+        {
+          "x": 211,
+          "y": 1023
+        }
+      ],
+      [
+        {
+          "x": 252,
+          "y": 1000
+        },
+        {
+          "x": 290,
+          "y": 999
+        },
+        {
+          "x": 290,
+          "y": 1019
+        },
+        {
+          "x": 253,
+          "y": 1021
+        }
+      ],
+      [
+        {
+          "x": 294,
+          "y": 999
+        },
+        {
+          "x": 372,
+          "y": 995
+        },
+        {
+          "x": 372,
+          "y": 1016
+        },
+        {
+          "x": 295,
+          "y": 1019
+        }
+      ],
+      [
+        {
+          "x": 599,
+          "y": 986
+        },
+        {
+          "x": 691,
+          "y": 984
+        },
+        {
+          "x": 693,
+          "y": 1015
+        },
+        {
+          "x": 601,
+          "y": 1018
+        }
+      ],
+      [
+        {
+          "x": 700,
+          "y": 984
+        },
+        {
+          "x": 720,
+          "y": 985
+        },
+        {
+          "x": 722,
+          "y": 1012
+        },
+        {
+          "x": 702,
+          "y": 1014
+        }
+      ]
+    ]
+  },
+  "confidenceLevel": 0.8239373287671233,
+  "date": {
+    "data": "2026-01-06T12:00:00.000Z",
+    "confidenceLevel": 0.8077493150684931,
+    "text": "Date  Jan  6.208",
+    "index": 6,
+    "regions": [
+      [
+        {
+          "x": 499,
+          "y": 362
+        },
+        {
+          "x": 555,
+          "y": 362
+        },
+        {
+          "x": 555,
+          "y": 383
+        },
+        {
+          "x": 499,
+          "y": 382
+        }
+      ],
+      [
+        {
+          "x": 562,
+          "y": 345
+        },
+        {
+          "x": 624,
+          "y": 344
+        },
+        {
+          "x": 624,
+          "y": 394
+        },
+        {
+          "x": 561,
+          "y": 395
+        }
+      ],
+      [
+        {
+          "x": 634,
+          "y": 344
+        },
+        {
+          "x": 717,
+          "y": 341
+        },
+        {
+          "x": 719,
+          "y": 389
+        },
+        {
+          "x": 634,
+          "y": 394
+        }
+      ]
+    ]
+  },
+  "dueDate": {
+    "confidenceLevel": 0
+  },
+  "text": {
+    "text": "Classic Auto Repair Services\nMa-a Road, Davao City\nProp .: Melchor Bombeo\nTIN: 929-071-595\nDuplicate NO. 01002\nCASH SALES INVOICE\nDate: Jan. 6.208\nSold To:\nAddress: Jagum com\nWorks Performed Amount\n1.080\n2) welding of pay 5.500\n31 Champ oil 1.890\nL Pay this amount 8.470 -\n052\nJOB ORDER NO .:\nk\na Classic Auto Repair Services\nR./ Cadenas\nne By: G-2",
+    "regions": [
+      {
+        "x": 1,
+        "y": 117
+      },
+      {
+        "x": 723,
+        "y": 117
+      },
+      {
+        "x": 724,
+        "y": 1321
+      },
+      {
+        "x": 1,
+        "y": 1322
+      }
+    ]
+  },
+  "amounts": [
+    {
+      "data": 1080,
+      "index": 10,
+      "regions": [
+        [
+          {
+            "x": 577,
+            "y": 555
+          },
+          {
+            "x": 664,
+            "y": 553
+          },
+          {
+            "x": 666,
+            "y": 582
+          },
+          {
+            "x": 577,
+            "y": 584
+          }
+        ]
+      ],
+      "text": "1.080",
+      "currencyCode": "USD"
+    },
+    {
+      "data": 5500,
+      "index": 11,
+      "regions": [
+        [
+          {
+            "x": 78,
+            "y": 646
+          },
+          {
+            "x": 669,
+            "y": 633
+          },
+          {
+            "x": 671,
+            "y": 661
+          },
+          {
+            "x": 81,
+            "y": 684
+          }
+        ]
+      ],
+      "text": "2) welding of pay 5.500",
+      "currencyCode": "USD"
+    },
+    {
+      "data": 31,
+      "index": 12,
+      "regions": [
+        [
+          {
+            "x": 83,
+            "y": 760
+          },
+          {
+            "x": 692,
+            "y": 754
+          },
+          {
+            "x": 692,
+            "y": 786
+          },
+          {
+            "x": 85,
+            "y": 803
+          }
+        ]
+      ],
+      "text": "31 Champ oil 1.890",
+      "currencyCode": "USD"
+    },
+    {
+      "data": 8470,
+      "index": 13,
+      "regions": [
+        [
+          {
+            "x": 0,
+            "y": 846
+          },
+          {
+            "x": 720,
+            "y": 985
+          },
+          {
+            "x": 722,
+            "y": 1012
+          },
+          {
+            "x": 0,
+            "y": 864
+          }
+        ]
+      ],
+      "text": "L Pay this amount 8.470 -",
+      "currencyCode": "USD"
+    }
+  ],
+  "numbers": [
+    {
+      "data": 1080,
+      "text": "1.080",
+      "regions": [
+        [
+          {
+            "x": 577,
+            "y": 555
+          },
+          {
+            "x": 664,
+            "y": 553
+          },
+          {
+            "x": 666,
+            "y": 582
+          },
+          {
+            "x": 577,
+            "y": 584
+          }
+        ]
+      ],
+      "index": 10,
+      "currencyCode": "USD"
+    },
+    {
+      "data": 5500,
+      "text": "2) welding of pay 5.500",
+      "regions": [
+        [
+          {
+            "x": 78,
+            "y": 646
+          },
+          {
+            "x": 669,
+            "y": 633
+          },
+          {
+            "x": 671,
+            "y": 661
+          },
+          {
+            "x": 81,
+            "y": 684
+          }
+        ]
+      ],
+      "index": 11,
+      "currencyCode": "USD"
+    },
+    {
+      "data": 31,
+      "text": "31 Champ oil 1.890",
+      "regions": [
+        [
+          {
+            "x": 83,
+            "y": 760
+          },
+          {
+            "x": 692,
+            "y": 754
+          },
+          {
+            "x": 692,
+            "y": 786
+          },
+          {
+            "x": 85,
+            "y": 803
+          }
+        ]
+      ],
+      "index": 12,
+      "currencyCode": "USD"
+    },
+    {
+      "data": 8470,
+      "text": "L Pay this amount 8.470 -",
+      "regions": [
+        [
+          {
+            "x": 0,
+            "y": 846
+          },
+          {
+            "x": 720,
+            "y": 985
+          },
+          {
+            "x": 722,
+            "y": 1012
+          },
+          {
+            "x": 0,
+            "y": 864
+          }
+        ]
+      ],
+      "index": 13,
+      "classifyResult": "primaryTotal",
+      "currencyCode": "USD"
+    }
+  ],
+  "entities": {
+    "productLineItems": [
+      {
+        "data": {
+          "name": {
+            "data": "Works Performed Amount",
+            "regions": [],
+            "text": "Works Performed Amount"
+          },
+          "quantity": {
+            "data": 1,
+            "regions": [],
+            "text": "1"
+          },
+          "totalPrice": {
+            "data": 8.47,
+            "regions": [],
+            "text": "8.470"
+          },
+          "unitPrice": {
+            "data": 8.47,
+            "regions": [],
+            "text": ""
+          }
+        },
+        "confidenceLevel": 0.8,
+        "text": "Works Performed Amount",
+        "index": 9,
+        "regions": [
+          [
+            {
+              "x": 183,
+              "y": 516
+            },
+            {
+              "x": 249,
+              "y": 515
+            },
+            {
+              "x": 250,
+              "y": 536
+            },
+            {
+              "x": 184,
+              "y": 538
+            }
+          ],
+          [
+            {
+              "x": 254,
+              "y": 515
+            },
+            {
+              "x": 360,
+              "y": 512
+            },
+            {
+              "x": 361,
+              "y": 536
+            },
+            {
+              "x": 254,
+              "y": 536
+            }
+          ],
+          [
+            {
+              "x": 600,
+              "y": 509
+            },
+            {
+              "x": 679,
+              "y": 507
+            },
+            {
+              "x": 680,
+              "y": 527
+            },
+            {
+              "x": 599,
+              "y": 529
+            }
+          ]
+        ]
+      }
+    ],
+    "IBAN": {
+      "confidenceLevel": 0
+    },
+    "invoiceNumber": {
+      "data": "01002",
+      "confidenceLevel": 0.8300000000000001,
+      "text": "Duplicate NO. 01002",
+      "keyword": "-"
+    },
+    "multiTaxLineItems": [],
+    "receiptNumber": {
+      "data": "01002",
+      "confidenceLevel": 0.9199999999999999,
+      "text": "Duplicate NO. 01002",
+      "keyword": "-",
+      "index": 4,
+      "regions": [
+        [
+          {
+            "x": 42,
+            "y": 261
+          },
+          {
+            "x": 132,
+            "y": 259
+          },
+          {
+            "x": 134,
+            "y": 281
+          },
+          {
+            "x": 42,
+            "y": 283
+          }
+        ],
+        [
+          {
+            "x": 575,
+            "y": 250
+          },
+          {
+            "x": 626,
+            "y": 250
+          },
+          {
+            "x": 626,
+            "y": 278
+          },
+          {
+            "x": 574,
+            "y": 279
+          }
+        ],
+        [
+          {
+            "x": 632,
+            "y": 250
+          },
+          {
+            "x": 719,
+            "y": 248
+          },
+          {
+            "x": 719,
+            "y": 277
+          },
+          {
+            "x": 631,
+            "y": 278
+          }
+        ]
+      ]
+    },
+    "last4": {
+      "confidenceLevel": 0
+    }
+  },
+  "lineAmounts": [],
+  "itemsCount": {
+    "data": 0,
+    "confidenceLevel": 0
+  },
+  "paymentType": {
+    "data": "cash",
+    "confidenceLevel": 0.99,
+    "text": "cash",
+    "index": 0,
+    "regions": [
+      [
+        {
+          "x": 205,
+          "y": 118
+        },
+        {
+          "x": 298,
+          "y": 118
+        },
+        {
+          "x": 296,
+          "y": 160
+        },
+        {
+          "x": 203,
+          "y": 159
+        }
+      ],
+      [
+        {
+          "x": 306,
+          "y": 118
+        },
+        {
+          "x": 377,
+          "y": 118
+        },
+        {
+          "x": 376,
+          "y": 160
+        },
+        {
+          "x": 305,
+          "y": 160
+        }
+      ],
+      [
+        {
+          "x": 386,
+          "y": 118
+        },
+        {
+          "x": 479,
+          "y": 118
+        },
+        {
+          "x": 479,
+          "y": 160
+        },
+        {
+          "x": 385,
+          "y": 160
+        }
+      ],
+      [
+        {
+          "x": 488,
+          "y": 118
+        },
+        {
+          "x": 604,
+          "y": 117
+        },
+        {
+          "x": 604,
+          "y": 159
+        },
+        {
+          "x": 487,
+          "y": 160
+        }
+      ]
+    ]
+  },
+  "trackingId": "T-20250712-7541727",
+  "merchantName": {
+    "data": "Classic Auto Repair Services",
+    "confidenceLevel": 0.8100000000000002,
+    "text": "Classic Auto Repair Services",
+    "index": 26
+  },
+  "merchantAddress": {
+    "data": "Ma-A Road, Ma-A, Davao City, Davao Del Sur, Davao Region",
+    "confidenceLevel": 0.99,
+    "text": "Ma-a Road, Davao City",
+    "index": 1,
+    "regions": [
+      [
+        {
+          "x": 288,
+          "y": 164
+        },
+        {
+          "x": 336,
+          "y": 164
+        },
+        {
+          "x": 335,
+          "y": 189
+        },
+        {
+          "x": 287,
+          "y": 189
+        }
+      ],
+      [
+        {
+          "x": 341,
+          "y": 164
+        },
+        {
+          "x": 404,
+          "y": 164
+        },
+        {
+          "x": 404,
+          "y": 189
+        },
+        {
+          "x": 340,
+          "y": 189
+        }
+      ],
+      [
+        {
+          "x": 409,
+          "y": 164
+        },
+        {
+          "x": 475,
+          "y": 164
+        },
+        {
+          "x": 474,
+          "y": 189
+        },
+        {
+          "x": 408,
+          "y": 189
+        }
+      ],
+      [
+        {
+          "x": 480,
+          "y": 164
+        },
+        {
+          "x": 524,
+          "y": 164
+        },
+        {
+          "x": 524,
+          "y": 190
+        },
+        {
+          "x": 480,
+          "y": 189
+        }
+      ]
+    ]
+  },
+  "merchantCity": {
+    "data": "Davao City",
+    "confidenceLevel": 0.99,
+    "text": "Ma-a Road, Davao City",
+    "index": 1,
+    "regions": [
+      [
+        {
+          "x": 288,
+          "y": 164
+        },
+        {
+          "x": 336,
+          "y": 164
+        },
+        {
+          "x": 335,
+          "y": 189
+        },
+        {
+          "x": 287,
+          "y": 189
+        }
+      ],
+      [
+        {
+          "x": 341,
+          "y": 164
+        },
+        {
+          "x": 404,
+          "y": 164
+        },
+        {
+          "x": 404,
+          "y": 189
+        },
+        {
+          "x": 340,
+          "y": 189
+        }
+      ],
+      [
+        {
+          "x": 409,
+          "y": 164
+        },
+        {
+          "x": 475,
+          "y": 164
+        },
+        {
+          "x": 474,
+          "y": 189
+        },
+        {
+          "x": 408,
+          "y": 189
+        }
+      ],
+      [
+        {
+          "x": 480,
+          "y": 164
+        },
+        {
+          "x": 524,
+          "y": 164
+        },
+        {
+          "x": 524,
+          "y": 190
+        },
+        {
+          "x": 480,
+          "y": 189
+        }
+      ]
+    ]
+  },
+  "merchantState": {
+    "data": "Davao Del Sur, Davao Region",
+    "confidenceLevel": 0.99,
+    "text": "Ma-a Road, Davao City",
+    "index": 1,
+    "regions": [
+      [
+        {
+          "x": 288,
+          "y": 164
+        },
+        {
+          "x": 336,
+          "y": 164
+        },
+        {
+          "x": 335,
+          "y": 189
+        },
+        {
+          "x": 287,
+          "y": 189
+        }
+      ],
+      [
+        {
+          "x": 341,
+          "y": 164
+        },
+        {
+          "x": 404,
+          "y": 164
+        },
+        {
+          "x": 404,
+          "y": 189
+        },
+        {
+          "x": 340,
+          "y": 189
+        }
+      ],
+      [
+        {
+          "x": 409,
+          "y": 164
+        },
+        {
+          "x": 475,
+          "y": 164
+        },
+        {
+          "x": 474,
+          "y": 189
+        },
+        {
+          "x": 408,
+          "y": 189
+        }
+      ],
+      [
+        {
+          "x": 480,
+          "y": 164
+        },
+        {
+          "x": 524,
+          "y": 164
+        },
+        {
+          "x": 524,
+          "y": 190
+        },
+        {
+          "x": 480,
+          "y": 189
+        }
+      ]
+    ]
+  },
+  "merchantCountryCode": {
+    "data": "PH",
+    "confidenceLevel": 0.99,
+    "text": "Ma-a Road, Davao City",
+    "index": 1,
+    "regions": [
+      [
+        {
+          "x": 288,
+          "y": 164
+        },
+        {
+          "x": 336,
+          "y": 164
+        },
+        {
+          "x": 335,
+          "y": 189
+        },
+        {
+          "x": 287,
+          "y": 189
+        }
+      ],
+      [
+        {
+          "x": 341,
+          "y": 164
+        },
+        {
+          "x": 404,
+          "y": 164
+        },
+        {
+          "x": 404,
+          "y": 189
+        },
+        {
+          "x": 340,
+          "y": 189
+        }
+      ],
+      [
+        {
+          "x": 409,
+          "y": 164
+        },
+        {
+          "x": 475,
+          "y": 164
+        },
+        {
+          "x": 474,
+          "y": 189
+        },
+        {
+          "x": 408,
+          "y": 189
+        }
+      ],
+      [
+        {
+          "x": 480,
+          "y": 164
+        },
+        {
+          "x": 524,
+          "y": 164
+        },
+        {
+          "x": 524,
+          "y": 190
+        },
+        {
+          "x": 480,
+          "y": 189
+        }
+      ]
+    ]
+  },
+  "merchantTypes": {
+    "confidenceLevel": 0
+  },
+  "merchantPostalCode": {
+    "data": "8000",
+    "confidenceLevel": 0.99,
+    "text": "Ma-a Road, Davao City",
+    "index": 1,
+    "regions": [
+      [
+        {
+          "x": 288,
+          "y": 164
+        },
+        {
+          "x": 336,
+          "y": 164
+        },
+        {
+          "x": 335,
+          "y": 189
+        },
+        {
+          "x": 287,
+          "y": 189
+        }
+      ],
+      [
+        {
+          "x": 341,
+          "y": 164
+        },
+        {
+          "x": 404,
+          "y": 164
+        },
+        {
+          "x": 404,
+          "y": 189
+        },
+        {
+          "x": 340,
+          "y": 189
+        }
+      ],
+      [
+        {
+          "x": 409,
+          "y": 164
+        },
+        {
+          "x": 475,
+          "y": 164
+        },
+        {
+          "x": 474,
+          "y": 189
+        },
+        {
+          "x": 408,
+          "y": 189
+        }
+      ],
+      [
+        {
+          "x": 480,
+          "y": 164
+        },
+        {
+          "x": 524,
+          "y": 164
+        },
+        {
+          "x": 524,
+          "y": 190
+        },
+        {
+          "x": 480,
+          "y": 189
+        }
+      ]
+    ]
+  },
+  "merchantTaxId": {
+    "data": "TIN: 929-071-595",
+    "confidenceLevel": 0.45,
+    "text": "TIN: 929-071-595",
+    "index": 3,
+    "regions": [
+      [
+        {
+          "x": 320,
+          "y": 221
+        },
+        {
+          "x": 359,
+          "y": 221
+        },
+        {
+          "x": 359,
+          "y": 244
+        },
+        {
+          "x": 319,
+          "y": 244
+        }
+      ],
+      [
+        {
+          "x": 363,
+          "y": 221
+        },
+        {
+          "x": 489,
+          "y": 220
+        },
+        {
+          "x": 489,
+          "y": 243
+        },
+        {
+          "x": 363,
+          "y": 244
+        }
+      ]
+    ]
+  },
+  "targetRotation": 0,
+  "elapsed": 4261.902808994055
+}

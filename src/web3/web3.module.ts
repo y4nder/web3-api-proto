@@ -6,6 +6,7 @@ import { entities } from 'src/entities';
 import { JwtModule } from '@nestjs/jwt';
 import { ConfigService } from '@nestjs/config';
 import { Web3StorageModule } from './storage/web3storage.module';
+import { TrustScoreService } from 'src/trustScore/trust-score-service';
 
 @Module({
   imports: [
@@ -18,9 +19,9 @@ import { Web3StorageModule } from './storage/web3storage.module';
         signOptions: { expiresIn: '60s' },
       }),
     }),
-    Web3StorageModule
+    Web3StorageModule,
   ],
   controllers: [Web3Controller],
-  providers: [Web3Service],
+  providers: [Web3Service, TrustScoreService],
 })
 export class Web3Module {}

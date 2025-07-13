@@ -19,3 +19,4 @@ export class TrustScoreCredential {
     @OneToOne(() => Identifier, i => i.trustScore, {owner: true})
     identifer!: Identifier
 }
+
